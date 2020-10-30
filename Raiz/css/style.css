@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    background-color: #98FB98;
+}
+
+.LogoIcone{
+    width: 222px ;
+    float: left;
+    margin: -15px 0px 0px 50px;
+}
+
+nav{
+    margin: 20px 0px 0px 0px;
+    background-color: #1E90FF;
+    overflow: visible;
+    border-radius: 65px;
+    box-shadow: 5px 5px 10px gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 65px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.TextoLogo{
+    padding: 10px;
+    margin: -5px 25px 25px 25px;
+    float: left;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.link:hover{
+    color: black;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+
+.canto{
+    float: right;
+    padding: 5px 5px;
+    margin: 15px 25px 25px 25px;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+hr{
+    margin: 80px 0px 80px 0px;
+    height: 2px;
+}
+
+#tikitaka{
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    padding: 600px;
+}
+
+#channel{
+    text-align: center;
+    background-color: #1E90FF;
+}
+
+.TituloChannel{
+    font-size: 75px; 
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 90px 0px 25px 0px;
+}
+
+.video{
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+#about{
+    text-align: center;
+    background-color: #FFD700;
+}
+
+.TituloAbout{
+    font-size: 75px; 
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 90px 0px 25px 0px;
+}
+
+p.li{
+    width: 500px;
+    margin-right: 0px;
+}
+
+.TextoAbout{
+    width: 500px;
+    text-align: center;
+    margin: 100px 300px 100px 300px;
+    font-size: 30px;
+}
+
+.ImgAbout{
+    margin: 30px 200px 100px 300px;
+    float: right;
+    width: 30%;
+    border-radius: 90px;
+}
+
+.barraAmarela{
+    width: 100px;
+    float: left;
+}
+
+#contact{
+    background-color: white;
+}
+
+.TituloContact{
+    font-size: 75px; 
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0px;
+    text-align: center;
+}
+
+.redes{
+    justify-content: center;
+    margin-left: 43%;
+    margin-right: auto;
+}
+
+.ImagemRedes{
+    width: 85px;
+}
+
+.TextoSimples{
+    text-align: center;
+}
+
+#git{
+    width: 30px;
+}
